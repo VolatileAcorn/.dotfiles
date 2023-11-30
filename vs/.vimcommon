@@ -1,0 +1,7 @@
+nnoremap <SPACE> <Nop>
+let mapleader="\<SPACE>"
+
+set relativenumber
+set showcmd
+set cursorline
+set laststatus=2

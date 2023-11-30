@@ -1,5 +1,4 @@
-nnoremap <SPACE> <Nop>
-let mapleader="\<SPACE>"
+:source ~/.vimcommon
 
 " F -> go to File
 nmap <leader>f :vsc Edit.GoToFile<CR>
@@ -11,8 +10,3 @@ nmap <leader>h :vsc Edit.GoToDeclaration<CR>
 nmap <leader>c :vsc Edit.GoToDefinition<CR>
 " p -> Parameter info
 nmap <leader>p :vsc Edit.ParameterInfo<CR>
-
-set relativenumber
-set showcmd
-set cursorline
-set laststatus=2
